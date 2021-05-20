@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "591044183220",
+    "firebase_url": "https://quick-talk-e748c-default-rtdb.firebaseio.com",
+    "project_id": "quick-talk-e748c",
+    "storage_bucket": "quick-talk-e748c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591044183220:android:91267440b107961dd0c3e1",
+        "android_client_info": {
+          "package_name": "io.quicktalk.agilean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591044183220-os4oeriqtsi6svn7f04faf1p21em4tvd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.quicktalk.agilean",
+            "certificate_hash": "7fc702f31b4a38a2b07647298b5c99e6d4025006"
+          }
+        },
+        {
+          "client_id": "591044183220-7vm8gir30hdr16vm0nclssn47u2h0lmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi2xekiLOZsnJrpV-qe9TZSzO-qJ5TcSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591044183220-7vm8gir30hdr16vm0nclssn47u2h0lmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591044183220:android:11bade25c6a13cc1d0c3e1",
+        "android_client_info": {
+          "package_name": "io.quicktalk.openlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591044183220-iad8vjfs5tmce6r4ghd3im29sncqqk51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.quicktalk.openlive",
+            "certificate_hash": "7fc702f31b4a38a2b07647298b5c99e6d4025006"
+          }
+        },
+        {
+          "client_id": "591044183220-7vm8gir30hdr16vm0nclssn47u2h0lmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi2xekiLOZsnJrpV-qe9TZSzO-qJ5TcSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591044183220-7vm8gir30hdr16vm0nclssn47u2h0lmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591044183220:android:86dfa406d2872a61d0c3e1",
+        "android_client_info": {
+          "package_name": "io.quictalk.agilean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591044183220-jb245aldi2o1bnjngothlmmficp50v0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.quictalk.agilean",
+            "certificate_hash": "7fc702f31b4a38a2b07647298b5c99e6d4025006"
+          }
+        },
+        {
+          "client_id": "591044183220-7vm8gir30hdr16vm0nclssn47u2h0lmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi2xekiLOZsnJrpV-qe9TZSzO-qJ5TcSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591044183220-7vm8gir30hdr16vm0nclssn47u2h0lmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

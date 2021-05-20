@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/mainToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+
+            android:elevation="4dp"
+            android:fitsSystemWindows="true"
+
+            android:theme="@style/Theme.AppCompat.Light"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Home"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:textColor="#191818"
+                    android:foregroundGravity="center"
+                    android:textStyle="bold"
+
+                    android:textSize="20dp"/>
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+
+                android:text="My Discussions"
+                android:textAllCaps="false"
+
+                android:textSize="16dp"
+                android:textStyle="bold" />
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:queryHint="Search Here"
+                android:iconifiedByDefault="false"
+                android:layout_alignParentTop="true"/>
+
+
+
+
+                </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/meetingfetchuser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:listitem="@layout/mydiscussioncard" />
+        </LinearLayout>
+
+
+
+
+</ScrollView>

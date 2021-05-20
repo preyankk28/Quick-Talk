@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/setting_button"
+        android:layout_width="@dimen/setting_btn_size"
+        android:layout_height="@dimen/setting_btn_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/setting_btn_margin_top"
+        android:layout_marginRight="@dimen/setting_btn_margin_right"
+        android:layout_marginEnd="@dimen/setting_btn_margin_right"
+        android:src="@drawable/btn_setting"
+        android:onClick="onSettingClicked"/>
+
+    <LinearLayout
+        android:id="@+id/middle_layout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:id="@+id/main_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/topic_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_below="@id/main_logo"
+            android:layout_alignLeft="@id/start_broadcast_button"
+            android:layout_alignRight="@id/start_broadcast_button"
+            android:layout_alignStart="@id/start_broadcast_button"
+            android:layout_alignEnd="@id/start_broadcast_button"
+            android:layout_marginBottom="@dimen/edit_margin_bottom"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/edit_text_padding"
+            android:textSize="@dimen/text_size_normal"
+            android:maxLength="35"
+
+            android:textColor="@color/blue_alpha"
+            android:hint="@string/topic_edit_hint"
+            android:textColorHint="@color/blue_alpha"
+            android:textCursorDrawable="@null"
+            android:gravity="center"
+            android:backgroundTint="@color/blue_alpha"
+            android:digits="@string/legal_channel_name_characters"
+            android:lines="1"/>
+        <EditText
+            android:id="@+id/display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_below="@id/topic_edit"
+            android:layout_alignLeft="@id/start_broadcast_button"
+            android:layout_alignRight="@id/start_broadcast_button"
+            android:layout_alignStart="@id/start_broadcast_button"
+            android:layout_alignEnd="@id/start_broadcast_button"
+            android:layout_marginBottom="@dimen/edit_margin_bottom"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/edit_text_padding"
+            android:textSize="@dimen/text_size_normal"
+            android:maxLength="20"
+            android:textColor="@color/blue_alpha"
+            android:hint="@string/display_name"
+            android:textColorHint="@color/blue_alpha"
+            android:textCursorDrawable="@null"
+            android:backgroundTint="@color/blue_alpha"
+            android:digits="@string/legal_channel_name_characters"
+            android:lines="1"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/display_name"
+            android:id="@+id/role"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/edit_margin_bottom"
+            android:theme="@style/RadioButton"
+            android:layout_alignLeft="@id/start_broadcast_button"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_broadcaster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/broadcaster"
+                android:checked="true"
+                android:textColor="@color/blue_alpha"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_audience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/audience"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/blue_alpha"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/start_broadcast_button"
+            android:layout_width="200dp"
+            android:layout_height="@dimen/start_broadcast_height"
+            android:layout_below="@id/role"
+            android:layout_gravity="center"
+
+            android:textAlignment="gravity"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/start_broadcast_title"
+
+            android:textSize="@dimen/text_size_large"
+            android:textColor="#FAFAFA"
+            android:textAllCaps="false"
+            android:onClick="onStartBroadcastClicked"
+            android:background="@color/buttonblue"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/info_margin_bottom"
+        android:text="@string/powered_by_acta"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@android:color/white" />
+</LinearLayout>

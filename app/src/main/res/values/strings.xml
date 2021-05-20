@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">Quick Talk</string>
+
+    <!-- Main Activity -->
+    <string name="start_broadcast_title">JOIN</string>
+    <string name="topic_edit_hint">Type your topic</string>
+    <string name="display_name" translatable="false">Display Name</string>
+    <string name="broadcaster" translatable="false">Broadcaster</string>
+    <string name="audience" translatable="false">Audience</string>
+    <string name="powered_by_acta" translatable="false">Powered by Agilean Solutions</string>
+    <string name="need_necessary_permissions">Necessary permissions acquired</string>
+
+    <!-- Setting Activity -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_resolution_title">Resolution</string>
+    <string name="setting_stats_title">Show video statistics</string>
+    <string name="setting_mirror_local_title">Local video preview mirror mode</string>
+    <string name="setting_mirror_remote_title">Remote video render mirror mode</string>
+    <string name="setting_mirror_encode_title">Local video encode mirror mode</string>
+
+    <string-array name="string_array_resolutions">
+        <item>320x240</item>
+        <item>480x360</item>
+        <item>640x360</item>
+        <item>640x480</item>
+        <item>960x540</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <!-- Live Activity -->
+    <string name="fake_user_name" translatable="false">Shakespeare</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="confirm" translatable="false">Confirm</string>
+    <string name="alert_message" translatable="false">Are you sure you want to exit ?</string>
+    <string name="invite_message" translatable="false">To whom you want to share Broadcaster or Audience ?</string>
+    <string name="share_message" translatable="false">Let me recommend you this application</string>
+
+    <!-- Role Choose Activity -->
+    <string name="select_role_title">Please choose your role</string>
+    <string name="select_role_broadcaster">Broadcaster</string>
+    <string name="select_role_audience">Audience</string>
+    <string name="select_role_broadcaster_hint">Join as broadcaster</string>
+    <string name="select_role_audience_hint">Join as audience</string>
+
+    <!-- Legal digits for channel names -->
+    <string name="legal_channel_name_characters" translatable="false">&#xA0;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&amp;()+,-:;&lt;=.>?@[]^_`{|}~</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="required">Required</string>
+    <string name="enter_firstname">Enter First Name</string>
+    <string name="enter_Lastname">Enter Last Name</string>
+    <string name="enter_correct_email">Enter Correct Email</string>
+    <string name="password_mismatch">Password doesen\'t match</string>
+    <string name="signup_failed" />
+    <string name="user_created_successfully">User Created Successfully</string>
+    <string name="permission_required">Permission Required</string>
+</resources>

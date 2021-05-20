@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+android:background="@null"
+  android:layout_marginLeft="20dp"
+
+    android:id="@+id/row">
+
+
+            <TextView
+                android:background="@null"
+                android:id="@+id/messagechat"
+                android:layout_width="wrap_content"
+               android:textColor="#FFFF"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textStyle="bold"
+                tools:text="name"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+               android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/namemessagechat"
+                android:textColor="#FFFF"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                tools:text="message"/>
+
+
+</LinearLayout>
